@@ -2,19 +2,19 @@
 Authentication Laravel 8 Fortify multi authentication and sub domaine
 
 multi-agent authentication system with 3 subdomains realized with laravel 8 and fortify. The subdomains can be defined with 3 environment variables in the .evn file.
-The definition variables of the subdomains and the domain are :
-PREFIX_SUBDOMAIN_ADMIN : for the admin subdomain
-PREFIX_SUBDOMAIN_EDITOR : for the subdomain of users
-PREFIX_SUBDOMAIN_MY : for the subdomain of the member area
-APP_DOMAIN : for the domain definition
+1. The definition variables of the subdomains and the domain are :
+   - PREFIX_SUBDOMAIN_ADMIN : for the admin subdomain
+   - PREFIX_SUBDOMAIN_EDITOR : for the subdomain of users
+   - PREFIX_SUBDOMAIN_MY : for the subdomain of the member area
+   - APP_DOMAIN : for the domain definition
 
-The deployment is done as a classic laravel project.
-Each page has a RateLImit of 60 seconds for 5 attempts with a custom throll message available on the login page
+2. The deployment is done as a classic laravel project.
+3. Each page has a RateLImit of 60 seconds for 5 attempts with a custom throll message available on the login page
 
-The usable routes are :
-mydomain.domain/login
-mydomain.domain/forgot-password
-mydomain.domain/reset-password
+4. The usable routes are :
+   - mydomain.domain/login
+   - mydomain.domain/forgot-password
+   - mydomain.domain/reset-password
 
 some caputures of the login page and subdomains
 ![image](https://user-images.githubusercontent.com/71483238/156976965-f5f835cd-8568-4aa4-9169-acf432a98e5c.png)
